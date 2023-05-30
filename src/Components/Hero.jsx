@@ -19,7 +19,7 @@ function Hero() {
             transition={{ duration: 0.5, delay: 0.2 }} // Animation duration and delay
             className="mb-4 text-4xl font-semibold tracking-tight leading-none md:text-5xl xl:text-6xl"
           >
-            HEY I'AM Adarsh, A <span className="modern-strike">CREATIVE</span> DEVELOPER
+            HEY I'AM Name, A <span className="modern-strike">CREATIVE</span> DEVELOPER
           </motion.h1>
           <motion.p
             initial={{ opacity: 0, y: 20 }} // Initial state of the animation
