@@ -5,7 +5,7 @@ function Navbar() {
     <div className='p-3'>
         <nav className='flex justify-between'>
             <div className="log justify-start">
-                <h1 className='text-3xl text-gray-700 font-bold'>Ada.</h1>
+                <h1 className='text-3xl text-gray-700 font-bold'>Nam.</h1>
             </div>
             <div className="py-2 flex gap-3 justify-center font-semibold">
                 <Link to="/" className='hover:text-yellow-300'>Home</Link>
