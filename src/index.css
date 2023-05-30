@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer utilities {
+  .modern-strike {
+    position: relative;
+    display: inline-block;
+  }
+
+  .modern-strike::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 50%;
+    height: 4px; /* Increase the height value for a thicker line */
+    width: 100%;
+    background-color: #FDE047; /* Replace with your desired color */
+    transform: translateY(50%);
+    border-radius: 8px; /* Add a border radius for a slight curve */
+  }
+}
+.modern-strike::after {
+  /* Other properties */
+  border-radius: 8px; /* Increase the value for a more pronounced curve */
+  /* Other properties */
+}
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
